@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal"
+    android:id="@+id/cvBuscarHorizontal"
+    app:cardUseCompatPadding="true">
+
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="90dp"
+        android:background="?android:selectableItemBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imagenPerfilBuscarHorizontal"
+            android:layout_width="50dp"
+            android:layout_marginTop="-5dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textBuscarHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="-2dp"
+            android:gravity="center"
+            android:text="user"
+            android:textColor="@android:color/black"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

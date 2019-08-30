@@ -1,0 +1,4 @@
+#Thu May 24 22:20:20 CEST 2018
+base.0=C\:\\Users\\jose\\Music\\PROYECTO ANDROID\\21-05-2018 ambos\\Desahogate\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\63
+path.0=classes.dex
+renamed.0=classes.dex

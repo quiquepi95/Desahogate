@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "498743898669",
+    "firebase_url": "https://myproyectdesahogate.firebaseio.com",
+    "project_id": "myproyectdesahogate",
+    "storage_bucket": "myproyectdesahogate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498743898669:android:1db54ae1ce267e41",
+        "android_client_info": {
+          "package_name": "desahogate.proyectofinal.desahogate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498743898669-7881ptoogoj6u7oge7odqgjb2127sq35.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "desahogate.proyectofinal.desahogate",
+            "certificate_hash": "462d02e77edee5daf2366f281cbca78a92a76f2e"
+          }
+        },
+        {
+          "client_id": "498743898669-10ob3479kmcc7avccapamusedb2mpl6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQJgzEqdpeRFOOm_UtE5SreAB-XDg9yzc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498743898669-10ob3479kmcc7avccapamusedb2mpl6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

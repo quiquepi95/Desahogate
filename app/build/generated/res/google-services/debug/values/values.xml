@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">498743898669-10ob3479kmcc7avccapamusedb2mpl6g.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://myproyectdesahogate.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">498743898669</string>
+    <string name="google_api_key" translatable="false">AIzaSyAQJgzEqdpeRFOOm_UtE5SreAB-XDg9yzc</string>
+    <string name="google_app_id" translatable="false">1:498743898669:android:1db54ae1ce267e41</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAQJgzEqdpeRFOOm_UtE5SreAB-XDg9yzc</string>
+    <string name="google_storage_bucket" translatable="false">myproyectdesahogate.appspot.com</string>
+    <string name="project_id" translatable="false">myproyectdesahogate</string>
+</resources>

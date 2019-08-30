@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="310dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Tabs.TabDesahogateActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Publicación"
+        android:textSize="17dp" />
+
+
+    <EditText
+        android:id="@+id/editTextMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="Texto..."
+        android:inputType="textMultiLine"
+        android:maxLines="4" />
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextMensaje" />
+
+    <Button
+        android:id="@+id/buttonImagenPublicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="Elegir Imagen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/buttonCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:text="Cancelar" />
+
+        <Button
+            android:id="@+id/buttonPublicar"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:text="Publicar" />
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/switchUbicacion"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Ubicación"
+        />
+
+</LinearLayout>
